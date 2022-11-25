@@ -1,0 +1,173 @@
+#title{
+  background-color: #FD5D5D;
+  color: #fff;
+}
+
+body{
+  font-family: Ubuntu;
+  text-align: center;
+}
+
+h1, h2, h3 , h4, h5, h6{
+  font-family: Montserrat-Bold;
+}
+h1 {
+  font-family: 'Montserrat';
+  font-weight: bold;
+  font-size: 3.2rem;
+  line-height: 2;
+}
+
+h2{
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 1.7rem;
+  line-height: 1.5;
+}
+
+h3{
+  font-family: Montserrat;
+  font-weight:bold;
+}
+
+p{
+  color: #8f8f8f;
+}
+.container-fluid{
+  padding: 3% 15% 7%;
+
+}
+
+.navbar-brand{
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: Ubuntu;
+  color: #F0A500;
+
+
+}
+
+.navbar{
+  width:100%;
+}
+.nav-item{
+
+}
+.nav-link{
+  font-size: 1rem;
+  font-family: Montserrat;
+}
+
+.dropdown-toggle{
+  padding-top: 0.5rem;
+}
+.clicks{
+  margin: 3% 4% 3%;
+}
+
+.imagedog{
+  width:17%;
+  transform: rotate(25deg);
+  position: absolute;
+
+}
+
+#features{
+  padding: 7% 15%;
+  background: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.fonticon{
+  align-items: center;
+  padding-bottom: 17%;
+  color: #ef8172;
+
+}
+
+.fonticon:hover{
+  color: #ff4c68;
+}
+.feature-box{
+  text-align: center;
+}
+
+#testimonials{
+  padding-bottom: 5%;
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 5%;
+}
+.testimonial-image{
+  border-radius: 100%;
+  width:10%;
+  margin: 5%;
+}
+
+.press-logo{
+  width: 15%;
+  margin: 20px;
+
+}
+
+.carousel-item{
+  height: 420px;
+  padding: 7% 15%;
+}
+
+#pricing{
+  padding: 30px;
+
+}
+
+.pricing-column{
+  padding: 100px;
+  text-align: center;
+}
+
+.price-text{
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  padding: 7% 15%;
+}
+
+@media(max-width=1028px){
+  #title{
+    text-align: center;
+  }
+  .imagedog{
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+#cta{
+  padding: 7% 15%;
+  background: #ff4c68;
+  font-family: 'Montserrat';
+  color: #fff;
+  text-align : center;
+}
+
+.cta-heading{
+  font-family: Montserrat-Black;
+  font-weight: bold;
+  font-size: 3.5rem;
+
+}
+
+.footer-fonticon{
+  margin: 20px 10px;
+}
+
+#footer{
+  padding: 7% 15%;
+  text-align: center;
+}
